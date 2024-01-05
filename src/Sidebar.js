@@ -1,7 +1,5 @@
 import React from 'react'
 
-
-
 const Sidebar = ({notes, onAddNote,onDeleteNote, activeNote, setActiveNote,handleToggleDarkMode}) => {
   
   const sortedNotes = notes.sort((a,b) => b.lastModified - a.lastModified)
