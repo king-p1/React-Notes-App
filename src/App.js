@@ -4,7 +4,6 @@ import './App.css';
 import Main from './Main';
 import Sidebar from './Sidebar';
 
-// import Header from './Header';
 
 function App() {
   const [notes, setNotes] = useState(localStorage.notes ? JSON.parse(localStorage.notes) : []);
